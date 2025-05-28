@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Калькулятор</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h5>группа:1482-05</h5>
+    <h5>Выполнил: Рысев И.В.</h5>
+    <h1>Примитивный Калькулятор</h1>
+    <input type="text" id="display" readonly/>
+    <div class="buttons">
+      <button class="btn_numb">7</button>
+      <button class="btn_numb">8</button>
+      <button class="btn_numb">9</button>
+      <button class="btn_operator">/</button>
+
+      <button class="btn_numb">4</button>
+      <button class="btn_numb">5</button>
+      <button class="btn_numb">6</button>
+      <button class="btn_operator">*</button>
+
+      <button class="btn_numb">1</button>
+      <button class="btn_numb">2</button>
+      <button class="btn_numb">3</button>
+      <button class="btn_operator">-</button>
+
+      <button class="btn_decimal">,</button>
+      <button class="btn_numb">0</button>
+      <button class="btn_equals" style="background: rgb(38, 0, 255);color: rgb(255, 255, 255);" >=</button>
+      <button class="btn_operator">+</button>  
+      <button class="btn_clear" style="background: rgb(255, 0, 0);color: white;">C</button>
+    </div>
+
+    <h2>История</h2>
+    <div id="history"></div>
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
